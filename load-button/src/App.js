@@ -1,11 +1,13 @@
 
 import LoadMoreButton from './LoadMoreButton';
+import LoadMoreData from './LoadMoreData';
 
 function App() {
 
   return (
     <div className="App">
-      <LoadMoreButton />
+      {/* <LoadMoreButton /> */}
+      <LoadMoreData />
     </div>
   );
 }

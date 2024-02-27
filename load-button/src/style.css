@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -52,4 +52,41 @@ button:disabled{
     color: rgb(184, 169, 169);
     border: none;
 }
+ */
 
+ .load-more-container {
+    display:  flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+ .product{
+    padding: 20px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product img{
+    width: 200px;
+    height: 200px;
+} 
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-family: inherit;
+    padding: 1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
