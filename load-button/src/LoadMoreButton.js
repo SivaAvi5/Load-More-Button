@@ -3,7 +3,7 @@ import './style.css'
 
 const LoadMoreButton = () => {
 
-    const URL = 'https://picsum.photos/v2/list?page=1&limit=50'
+    const URL = 'https://picsum.photos/v2/list?page=1&limit=90'
 
     const [images,setImages] = useState([])
     const [count,setCount] = useState(1)
@@ -22,6 +22,7 @@ const LoadMoreButton = () => {
     },[])
 console.log(count*20 >= images.length)
 console.log(count)
+console.log(images)
 
 
 

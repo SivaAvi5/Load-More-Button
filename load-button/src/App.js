@@ -6,8 +6,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <LoadMoreButton /> */}
-      <LoadMoreData />
+      <LoadMoreButton />
+      {/* <LoadMoreData /> */}
     </div>
   );
 }
